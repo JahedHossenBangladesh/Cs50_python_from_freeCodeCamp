@@ -4,6 +4,11 @@
 
 # print (x)
 
-z=int(input("What is z?"))
-y =int(input("Whis is y"))
+# z=int(input("What is z?"))
+# y =int(input("Whis is y"))
+# print(z+y)
+
+#float number
+z=float(input("What is z?"))
+y =float(input("Whis is y"))
 print(z+y)
