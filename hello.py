@@ -17,6 +17,9 @@ name = name.strip().title()
  
 name = input("what is your name").strip().title()
 
+#split user's name into first name and last name
+first, last = name.split(" ")
+
 print ("my name is " + name) 
-print ("My name is ",name)
-print (f"name is {name}")
+print ("My name is ",last)
+print (f"name is {first}")
