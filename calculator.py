@@ -17,7 +17,9 @@
 z=float(input("What is z?"))
 y =float(input("Whis is y"))
 
-z = round(z+y)
-# print(z)
+# z = round(z/y,2)
+z = z/y
+print(f"{z:.2f}")
 #specefic
-print(f"{z:,}")
+# print(f"{z:,}")
+
