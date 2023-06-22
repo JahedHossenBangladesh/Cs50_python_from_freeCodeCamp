@@ -9,6 +9,15 @@
 # print(z+y)
 
 #float number
+# z=float(input("What is z?"))
+# y =float(input("Whis is y"))
+# print(z+y)
+
+#round
 z=float(input("What is z?"))
 y =float(input("Whis is y"))
-print(z+y)
+
+z = round(z+y)
+# print(z)
+#specefic
+print(f"{z:,}")
