@@ -4,5 +4,5 @@ if x<y:
     print("x is less then y")
 elif x > y:
     print("x is grater then y")
-elif x == y:
+else x == y:
     print("x is equal to y")
