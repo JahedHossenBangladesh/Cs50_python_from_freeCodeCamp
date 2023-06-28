@@ -24,13 +24,13 @@ else:
     
     
     
-# if  90 <= score <=100:
-#     print("a")
-# elif  80<= score <=90:
-#     print("b")
-# elif 70 <= score <=80:
-#     print("c")
-# elif 60<= score <= 70:
-#     print("d")
-# else:
-#     print("f")
+if  90 <= score <=100:
+    print("a")
+elif  80<= score <=90:
+    print("b")
+elif 70 <= score <=80:
+    print("c")
+elif 60<= score <= 70:
+    print("d")
+else:
+    print("f")
