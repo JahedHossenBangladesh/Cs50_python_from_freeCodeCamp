@@ -1,8 +1,24 @@
 name=input("what is your name")
 
-if name == "Joshim" or name =="manna" or name == "Rubel":
-    print("Daliwood")
-elif name =="sharuk" or name == "Salman":
-    print("Bollowood")
-else:
-    print("who?")
+match name:
+    case "Joshim":
+        print("Dali")
+    case "Manna":
+        print("Dali")
+    case "Rubel":
+        print("Dali")
+    case "Saruk":
+        print("Boli")
+    case _:
+        print("Who?")
+
+
+
+
+# if name == "Joshim" or name =="manna" or name == "Rubel":
+#     print("Daliwood")
+# elif name =="sharuk" or name == "Salman":
+#     print("Bollowood")
+# else:
+#     print("who?")
+
