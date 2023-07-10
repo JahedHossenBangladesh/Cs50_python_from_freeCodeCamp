@@ -15,11 +15,11 @@ def print_row(width):
     print("?" * width)
 
 
-def print_squire(size):
-    for _ in range(size):
-        for j in range(size):
-            print("#",end="")
-        print()
+# def print_squire(size):
+#     for _ in range(size):
+#         for j in range(size):
+#             print("#",end="")
+#         print()
         
 
 
